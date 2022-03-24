@@ -3,12 +3,10 @@ package app;
 import cs121.Dict;
 
 import java.util.Collection;
-import java.util.TreeSet;
+import java.util.HashSet;
 
-
-public class DictionaryTreeSet extends TreeSet<String> implements Dict {
-    public DictionaryTreeSet() {
-        super(new DictionaryOrder());
+public class DictionaryHashSet extends HashSet<String> implements Dict {
+    public DictionaryHashSet() {
         DictionaryList list = new DictionaryList();
 
         long startTime = System.nanoTime();
@@ -32,3 +30,4 @@ public class DictionaryTreeSet extends TreeSet<String> implements Dict {
     }
 
 }
+

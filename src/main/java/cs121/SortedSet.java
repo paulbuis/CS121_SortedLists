@@ -8,6 +8,7 @@ public class SortedSet<T> extends SortedList<T> implements SimpleSet<T> {
         super(comparator);
     }
 
+    @Override
     public boolean add(T item) {
         if (!contains(item)) {
             super.add(item);

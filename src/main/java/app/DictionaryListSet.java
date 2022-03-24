@@ -3,12 +3,7 @@ package app;
 import cs121.Dict;
 import cs121.SortedSet;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-
-import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.Scanner;
 
 public class DictionaryListSet extends SortedSet<String> implements Dict {
     public DictionaryListSet() {
