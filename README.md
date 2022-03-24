@@ -158,7 +158,7 @@ and require O(N<sup>2</sup>) to construct (worst case).
 * A `DictionaryTreeSet` should search in O(log N) time
   and require O(NlogN) to construct (worst case).
 
-* A `DictonaryHashSet` as constant average time and an average time to search proportional
+* A `DictonaryHashSet` as constant average time to search and an average time proportional
  to N to construct.
 
 I've avoided the worst case for `DictionaryListSet` to
