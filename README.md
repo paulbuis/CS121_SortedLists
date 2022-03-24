@@ -103,12 +103,13 @@ with a couple of different classes. First, the
 [`DictionaryListSet`](src/main/java/app/DictionaryListSet.java) class extends `SortedList<String>`
 and implements `Dict`.
 
-For comparison with the standard `java.util` classes
+For comparison with the standard `java.util` classes that can easily
+implement `java.util.Set<String>`
 I've written
 [`DictionaryTreeSet`](src/main/java/app/DictionaryTreeSet.java)
 which extends `java.util.TreeSet<String>` and
 [`DictionaryTreeSet`](src/main/java/app/DictionaryHashSet.java)
-which extends `java.util.TreeSet<String>`.
+which extends `java.util.HashSet<String>`.
 
 ## Lab Experiment
 
@@ -171,7 +172,7 @@ questions with the instructor (his choice):
 1. So, imagine we had a much smaller set to search,
 would this tend to favor choosing a `HashSet` or a `TreeSet` ?
 
-2. Similarly, imagine we had a much smaller set to search,
+2. Similarly, imagine we had a much larger set to search,
 would this tend to favor choosing a `HashSet` or a `TreeSet` ?
 
 3. Suppose we had objects of a type other than
