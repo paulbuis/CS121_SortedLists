@@ -133,15 +133,15 @@ time.
 
 Change `DictionaryLookup.java` so
 instead of a `DictionaryListSet` it uses
-a `DictionaryTreeSet` and record the second
-in your table.
+a `DictionaryTreeSet` and again record the 3
+times in your table.
 
 ### Record Timing #3
 
 Change `DictionaryLookup.java` so
 instead of a `DictionaryTreeSet` it uses
-a `DictionaryHashSet` and record the second
-in your table.
+a `DictionaryHashSet` and again record the 3
+times in your table.
 
 ## Reflection
 
@@ -165,19 +165,26 @@ construct by using an ordering that matches the ordering in
 the dictionary file we are using. Changing the ordering should
 have little effect on the TreeSet.
 
-Be prepared to answer the following 3
-questions with the instructor:
+Be prepared to answer any of the following 4
+questions with the instructor (his choice):
 
 1. So, imagine we had a much smaller set to search,
-would this tend to favor a `HashSet` or a `TreeSet` ?
+would this tend to favor choosing a `HashSet` or a `TreeSet` ?
 
 2. Similarly, imagine we had a much smaller set to search,
-would this tend to favor a `HashSet` or a `TreeSet` ?
+would this tend to favor choosing a `HashSet` or a `TreeSet` ?
 
-3. Finally, suppose we had objects of a type other than
+3. Suppose we had objects of a type other than
 `String` to sort that had no easy
 way to compare (for example: latitude, longitude pairs),
 would this tend to favor choosing to use a `HashSet` or a `TreeSet` ?
+
+4. Initialization of the search structure
+   requires both I/O and constructing the
+   search structure. Which of the two dominates?
+   In particular, if we could construct things
+   much faster, would it make a big impact on
+   the total time of initializing?
 
 ## Fun Experiment
 
