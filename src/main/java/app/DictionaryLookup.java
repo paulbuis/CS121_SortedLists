@@ -26,7 +26,7 @@ public class DictionaryLookup {
     }
 
     public static void main(String[] args) {
-        Dict dict = new DictionaryListSet();
+        Dict dict = new DictionaryHashTable();
         Scanner keyboard = new Scanner(System.in);
 
         while (true) {
